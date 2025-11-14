@@ -9,8 +9,7 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
-from io import BytesIO
+
 
 st.markdown("""
         <style>
