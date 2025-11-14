@@ -1,5 +1,12 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -375,9 +382,3 @@ with tab2:
         })
 
     st.dataframe(pd.DataFrame(summary))
-
-     
-
-
-
-
